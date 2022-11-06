@@ -8,10 +8,17 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <div class = "container">
+    <header>
         <h1>Avengers Character Search</h1>
-        <button type="Search" class="btn" id = "search">Search</button>
-        <alert id = "result"></alert>
+    </header>
+    <div class = "container">
+        <h3>Search by Full Name or Alias</h3>
+        <div id = "serachArea">
+            <input type="superhero" name="superhero" id="superhero" placeholder="e.g. Captain America or Steve Rogers">
+            <button type="Search" class="btn" id = "search">Search</button>
+        </div>   
+    </div>
+    <div class = "container" id = "result">
     </div>
 </body>
 </html>
